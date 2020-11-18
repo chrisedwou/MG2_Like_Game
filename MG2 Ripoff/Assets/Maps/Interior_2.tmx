@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="16" height="16" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Interior 2" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../Sprites/Map Tiles.png" width="512" height="512"/>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="64" height="64"/>
+    <object id="2" x="0.5" y="1" width="64" height="63"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="63.5" height="64.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="1" x="1" y="0" width="62.5" height="63.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index">
+    <object id="1" x="0.5" y="0" width="63" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="1" x="0.5" y="0" width="62.5" height="63.5"/>
+    <object id="2" x="1" y="1" width="60.5" height="62.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-0.5" width="63.5" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="63.5" height="63"/>
+   </objectgroup>
+  </tile>
+  <tile id="15">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="63" height="62.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="21">
+   <objectgroup draworder="index">
+    <object id="1" x="0.5" y="-0.5" width="63" height="64.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="22">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="63.5" height="64.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="23">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-1" width="63.5" height="65"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+14,15,15,15,15,15,15,15,15,15,15,15,15,15,15,16,
+10,23,23,23,23,23,23,23,23,23,23,23,23,23,23,2,
+10,3,4,4,4,4,4,5,2,0,0,0,0,0,0,2,
+10,11,6,7,7,7,8,13,2,0,0,0,0,0,0,2,
+4,11,2,0,0,0,10,13,2,0,0,0,0,0,0,2,
+20,11,2,0,0,0,10,13,14,15,15,15,15,15,15,2,
+10,11,2,0,0,0,10,13,22,23,23,23,23,23,23,2,
+10,11,14,15,15,15,16,12,4,4,4,4,4,4,5,2,
+10,11,22,23,23,23,24,13,6,7,7,7,7,8,13,2,
+10,19,20,20,20,20,20,13,2,0,0,0,0,10,13,2,
+10,7,7,7,7,7,8,13,2,0,0,0,0,10,13,2,
+10,0,0,0,0,0,10,13,2,0,0,0,0,10,13,2,
+10,15,15,15,15,15,16,13,14,15,15,15,15,16,13,2,
+10,23,23,23,23,23,24,13,22,23,23,23,23,24,13,2,
+10,19,20,20,20,20,20,12,4,4,4,4,4,4,21,2,
+10,7,7,7,7,7,7,7,7,7,12,12,7,7,7,7
+</data>
+ </layer>
+</map>

@@ -1,0 +1,17 @@
+Camera Controller :
+Variables:
+followTarget
+targetPosition
+
+
+follow player unless peak button
+moves the camera in the direction player facing ( vector2(lastMove)) for given distance 
+public int float peakDistance
+
+
+MOVEMENT
+two bools
+if player presses a horizontal, disable vertical
+if player presses a vertical, disable horizontal
+if player presses horizontal then a vertical disable horizontal
+if player presses a vertical then a horizontal disable verticle 
